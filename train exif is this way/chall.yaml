@@ -1,0 +1,17 @@
+challenge:
+  author: "Tevel"
+  category: Forensics
+  description: "I need help finding the ____"
+  difficulty: "Hard"
+  discord: "trevelling"
+
+  files:
+    - dist/station.png
+
+  flags:
+    - YCEP{.....}
+
+  hints:
+    - cost: 50
+      description: "I know how to spell..."
+      requirements: null
