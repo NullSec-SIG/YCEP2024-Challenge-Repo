@@ -1,0 +1,14 @@
+challenge:
+  author: "Kairos"
+  category: Cryptography
+  description: "I love me some caesar salad! \nHeres your salad: SWYJ24{y4n_m0g3_m414x_z0l_aX_b341nb}"
+  difficulty: "easy"
+  discord: "kairostay"
+
+  flags:
+    - YCEP24{e4t_s0m3_s414d_f0r_gD_h341th}
+
+  hints:
+    - cost: 10
+      description: "Love this website called dcode.fr/cipher-identifier"
+      requirements: null
