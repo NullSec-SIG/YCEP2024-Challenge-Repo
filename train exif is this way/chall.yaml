@@ -1,17 +1,45 @@
 challenge:
-  author: "Tevel"
+  # The name of the challenge author
+  author: 'Tevel'
+
+  # The category of the challenge
   category: OSINT
-  description: "I need help finding the ____"
-  difficulty: "Hard"
-  discord: "trevelling"
+  # The description of the challenge
+  description: 'I obtained this image from Flickr recently. Unfortunately, I lost the initial file which included metadata such as GPS information. I need to find the author (first name) who posted this photo on Flickr and GPS in the original photo.'
 
+  Flag format: YCEP24{author-GPSLat-GPSLong} [all lower case]
+
+  Example: I obtained this image from Flickr recently. Unfortunately, I lost the initial file which included metadata such as GPS information. I need to find the author (first name) who posted this photo on Flickr and GPS in the original photo.
+
+  Author first name: Arthur  
+  GPS-Latitude: 1_18_35.193_N, GPS Longitude: 105_51_19.0794_E
+
+
+  # The difficulty of the challenge
+  difficulty: 'Hard'
+
+  # The discord username of the author
+  discord: 'trevelling'
+
+  # The files to be given to the participant
+  # This should be a list of filepaths relative to the folder this file is in.
   files:
-    - dist/station.png
+  - dist/station.png
 
+  # The flags for the challenge
   flags:
-    - YCEP{.....}
+  - flag: YCEP24{----}
+    regex: false
 
+  # The hints for the challenge
   hints:
-    - cost: 50
-      description: "I know how to spell..."
-      requirements: null
+  - cost: 50
+    description: 'I know how to spell'
+  
+  # The name of the challenge
+  name: 'train exif is this way'
+
+  # The requirements for the challenge
+  # This should be a list of challenge names that the user must have completed before
+  # being able to see this challenge
+  requirements: null
