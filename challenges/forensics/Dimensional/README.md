@@ -1,5 +1,5 @@
 # Dimensional
-I got this image, but it seems to be cut off.. It's original dimensions were 223 x 226.. How am I supposed to un-crop an image anyway?
+I got this image, but it seems to be cut off.. Its original dimensions were 223 x 226.. How am I supposed to un-crop an image anyway?
 
 ## Summary
 - **Author:** Syn Kit
