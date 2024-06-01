@@ -7,7 +7,7 @@ I can't make sense of what this does... maybe there's another way to do this?
 - **Difficulty:** Medium
 
 ## Hints
-- `Strings strings strings...`
+- `Strings strings strings...` (20 points)
 
 ## Files
 - [chall](dist/chall)
