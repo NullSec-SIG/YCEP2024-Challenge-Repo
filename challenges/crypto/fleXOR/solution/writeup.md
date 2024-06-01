@@ -1,4 +1,4 @@
-# flexOR Solution
+# fleXOR Solution
 
 1. A ciphertext string is given. At first glance, it seems to be base64 encoded. The challenge title and description hints XOR encryption. However, we are not given the key, and we must try to brute force the key in order to decrypt the ciphertext.
 
