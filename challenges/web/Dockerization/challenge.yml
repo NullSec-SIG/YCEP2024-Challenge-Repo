@@ -1,0 +1,16 @@
+name: "Dockerization"
+author: "bowen"
+category: web
+difficulty: medium
+description: This is a sample description
+value: 250
+type: standard
+
+flags:
+    - YCEP24{1_l0v3_d0ck3r}
+
+topics:
+    - web exploitation
+
+files:
+    - dist/Dockerization.zip
