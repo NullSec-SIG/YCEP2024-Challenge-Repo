@@ -1,2 +1,2 @@
-flask
-cffi
+cffi==1.16.0
+Flask==3.0.3
