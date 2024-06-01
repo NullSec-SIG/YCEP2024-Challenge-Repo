@@ -47,4 +47,7 @@ files:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-    - Strings strings strings...
+    - {
+        content: "Strings strings strings...",
+        cost: 20
+    }
