@@ -2,9 +2,9 @@
 What is this mess? Maybe there's a way to unpack this...
 
 ## Summary
--**Author:** Yu Yang
--**Category:** Reverse Engineering
--**Difficulty:** Medium
+- **Author:** Yu Yang
+- **Category:** Reverse Engineering
+- **Difficulty:** Medium
 
 ## Hints
 - `You might find the following link useful: https://github.com/upx/upx` (10 points)

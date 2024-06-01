@@ -2,9 +2,9 @@
 I can't make sense of what this does... maybe there's another way to do this?
 
 ## Summary
--**Author:** Yu Yang
--**Category:** Reverse Engineering
--**Difficulty:** Medium
+- **Author:** Yu Yang
+- **Category:** Reverse Engineering
+- **Difficulty:** Medium
 
 ## Hints
 - `Strings strings strings...`

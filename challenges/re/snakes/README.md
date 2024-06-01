@@ -2,9 +2,9 @@
 This snake looks a little different... Can you figure out what it is?
 
 ## Summary
--**Author:** Yu Yang
--**Category:** Reverse Engineering
--**Difficulty:** Medium
+- **Author:** Yu Yang
+- **Category:** Reverse Engineering
+- **Difficulty:** Medium
 
 ## Hints
 - `Follow the trail!`
