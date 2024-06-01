@@ -2,11 +2,11 @@
 # other tools to install and deploy your challenge.
 
 # Required sections
-name: "dontcrackme"
+name: "UPX"
 author: "whywhy"
 category: reverse
 difficulty: medium
-description: I can't make sense of what this does... maybe there's another way to do this?
+description: What is this mess? Maybe there's a way to unpack this...
 value: 100
 type: standard
 
@@ -29,12 +29,13 @@ connection_info: nc hostname 12345
 # Accepts strings or dictionaries of CTFd API data
 flags:
     # A static case sensitive flag
-    - YCEP24{H4VE_Y0U_TR13D_STRINGS}
+    - YCEP24{UPX_1S_4_C00L_P4CK3R}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins
 # Accepts strings
 topics:
+    - upx
     - reverse
 
 # Provide paths to files from the same directory that this file is in
@@ -48,6 +49,10 @@ files:
 # Accepts dictionaries or strings
 hints:
     - {
-        content: "Strings strings strings...",
-        cost: 20
+        content: "You might find the following link useful: https://github.com/upx/upx",
+        cost: 10
+    }
+    - {
+        content: "Look at where the branching between the good and bad path is. What is the constant that is being compared?",
+        cost: 25
     }
