@@ -5,6 +5,7 @@
 name: "dontcrackme"
 author: "whywhy"
 category: reverse
+difficulty: medium
 description: I can't make sense of what this does... maybe there's another way to do this?
 value: 100
 type: standard

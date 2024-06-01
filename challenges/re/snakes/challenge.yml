@@ -5,6 +5,7 @@
 name: "Snakes"
 author: "whywhy"
 category: reverse
+difficulty: medium
 description: This snake looks a little different... Can you figure out what it is?
 value: 100
 type: standard
