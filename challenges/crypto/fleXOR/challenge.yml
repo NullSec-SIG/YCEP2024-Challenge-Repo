@@ -6,7 +6,7 @@ name: "fleXOR"
 author: "Syn Kit"
 category: Cryptography
 description: I learned about XOR encryption in Crypto class today, so I tried it out! I encrypted the flag with a key, but I lost the key.. Can you help me decrypt it?
-difficulty: hard
+difficulty: Hard
 value: 100
 type: standard
 
