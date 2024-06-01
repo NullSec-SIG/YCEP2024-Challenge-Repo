@@ -1,0 +1,19 @@
+# This Docker compose file allows you to run this app with
+# a single command (kinda a ice cold feature imo)
+
+# Docker compose is usually used to run multiple Dockerfiles
+# with a single command and set them up accordingly. It also
+# allows for a LAN to be set up within a private Docker network.
+
+# Search terms: docker compose
+
+# Fireship (the goat) also has a nice video on how to get this
+# baby up and running: https://youtu.be/gAkwW2tuIqE
+
+services:
+  server:
+    platform: linux/amd64
+    build:
+      context: .
+    ports:
+      - 6969:6969
