@@ -1,4 +1,4 @@
-# shiftin' shenanigans
+# ze masterchef
 
 The given Python function scrambles the flag by swapping all the even and odd characters. Players are given the scrambled flag after it has been scrambled with the function.
 
