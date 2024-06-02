@@ -5,7 +5,7 @@ I got this image, but it seems to be cut off.. Its original dimensions were 223 
 - **Author:** Syn Kit
 - **Discord Username:** elphabetsoop 
 - **Category:** Forensics
-- **Difficulty:** Medium
+- **Difficulty:** Hard
 
 ## Hints
 - `A hex editor might be useful` (20 points)

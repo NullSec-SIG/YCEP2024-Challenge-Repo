@@ -1,5 +1,5 @@
-# Something Broken
-Woke up from a daydream and found this image on my desktop. For some reason, I can't open it, my computer says its because of an unsupported format or something. My friend told me its probably some corrupted header bits, whatever that means.
+# Something Stanky
+In the midst of my daydream, I imagined some weird, stanky network traffic on my computer. Who knew that my daze-induced hallucinations would come true? I managed to capture some stuff before it disappeared, but I can't make heads or tails of it.
 
 
 ## Summary
@@ -8,11 +8,12 @@ Woke up from a daydream and found this image on my desktop. For some reason, I c
 - **Category:** Forensics
 - **Difficulty:** Medium
 
+
 ## Hints
-- `My friend told me about something about... a hex editor? And something about some PNG headers... I don't know, I wasn't really paying attention.` (20 points)
+- `I heard you could export objects from a Wireshark capture file... I wonder how if that could come in handy.` (20 points)
 
 
 ## Files
-- [something_broken.png](dist/something_broken.png)
+- [something_broken.png](dist/something-stanky.pcapng)
 ## Flags
-- `YCEP24{m33T_0uR_nu11s3c_t34m}` (static)
+- `YCEP24{h41f3d_n3tw0rk_f0r3ns1c5}` (static)

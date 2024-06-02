@@ -1,4 +1,4 @@
-# flexOR Solution
+# fleXOR Solution
 
 1. A ciphertext string is given. At first glance, it seems to be base64 encoded. The challenge title and description hints XOR encryption. However, we are not given the key, and we must try to brute force the key in order to decrypt the ciphertext.
 
@@ -17,7 +17,7 @@ def xor_decrypt(ct, key): # xor decrypt function for loop below
     '''iterates through ciphertext & xors corresponding ciphertext byte with key byte'''
     decrypted = b''
     for i in range(len(ct)):
-        decrypted_byte = ct[i] ^ key[i % len(key)]
+        decrypted_byte = ct[i] ^ key[i % len(key)] # rearrange equation: ciphertext = key ^ plaintext
         decrypted += bytes([decrypted_byte])
     return decrypted
 
@@ -25,7 +25,7 @@ def xor_decrypt(ct, key): # xor decrypt function for loop below
 for key_length in range(1, len(flag_prefix) + 1): # iterate through flag prefix (format)
     key = bytearray(key_length)
     for i in range(key_length):
-        key[i] = encrypted_bytes[i] ^ ord(flag_prefix[i]) # rearrange equation: ciphertext = key ^ plaintext
+        key[i] = encrypted_bytes[i] ^ ord(flag_prefix[i]) 
 
     decrypted = xor_decrypt(encrypted_bytes, key)
     decrypted_text = decrypted.decode('utf-8', errors='ignore')
