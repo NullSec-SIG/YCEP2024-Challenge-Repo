@@ -31,4 +31,11 @@ files:
 # Can be removed if unused
 # Accepts dictionaries or strings
 hints:
-    - do you see a pattern? ;)
+    - {
+        content: "do you see a pattern in the scrambling? ;)",
+        cost: 10
+    }
+    - {
+        content: "the chef loves switching adjacent letters!",
+        cost: 25
+    }
