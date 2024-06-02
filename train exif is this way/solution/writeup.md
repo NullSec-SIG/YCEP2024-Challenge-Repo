@@ -1,5 +1,4 @@
 ## train exif this way solution
-
 The challenge involves identifying the exact location depicted in an image of a train station and then extracting metadata from the original to finally obtain the ____
 
 ### 1. Identify the train station
