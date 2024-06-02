@@ -1,0 +1,17 @@
+challenge:
+  author: "Ravin"
+  category: Forensics
+  description: "Excel files are amazing and contains lots of information"
+  difficulty: "medium"
+  discord: "p3rpl3x"
+
+  files:
+    - dist/Excel, My Beloved.xlsx
+
+  flags:
+    - YCEP24{EXC3L_I5_C00L_AND_AMAZING}
+
+  hints:
+    - cost: 20
+      description: "Did you know Excel files actually have a file structure? try googling more about it!"
+      requirements: null
