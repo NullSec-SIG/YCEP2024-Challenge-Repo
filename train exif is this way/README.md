@@ -19,4 +19,4 @@ I obtained this image from Flickr recently. Unfortunately, I lost the initial fi
 
 ## Flags
 
-- `YCEP24{test}` (static)
+- `YCEP24{david-51_30_15.17_N-0_5_8.71_W}   ` (static)

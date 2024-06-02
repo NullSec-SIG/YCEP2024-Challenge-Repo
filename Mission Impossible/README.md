@@ -11,7 +11,8 @@ In a world of secrecy, Dr. Zukushichi, once a revered nuclear chemist, is now co
 
 ## Hints
 
-- `Surely he cant be using his real name.. can he?` (30 points)
+- `META is my favourite social media platform to store my DATA` (10 points)
+- `Surely he is not using his real name..would he?` (30 points)
 - `Someone told me my eggs are ROtTen just because its been sitting there for 47 hours?` (100 points)
 
 

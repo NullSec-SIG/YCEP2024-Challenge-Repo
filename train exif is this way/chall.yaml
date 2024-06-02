@@ -9,7 +9,7 @@ challenge:
     - dist/train-exif-is-this-way.png
 
   flags:
-    - YCEP24{----}
+    - YCEP24{david-51_30_15.17_N-0_5_8.71_W}
 
   hints:
     - cost: 20
