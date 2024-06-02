@@ -1,0 +1,9 @@
+# Editors
+.vscode
+.idea
+.history
+tags
+
+# OS generated files
+.DS_Store
+[Dd]esktop.ini

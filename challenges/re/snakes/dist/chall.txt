@@ -1,0 +1,132 @@
+  0           0 RESUME                   0
+
+  2           2 LOAD_CONST               0 ('YCEP24')
+              4 STORE_NAME               0 (flag)    
+
+  4           6 LOAD_NAME                0 (flag)    
+              8 LOAD_CONST               1 ('{')     
+             10 BINARY_OP               13 (+=)      
+             14 STORE_NAME               0 (flag)    
+
+  5          16 LOAD_NAME                0 (flag)    
+             18 LOAD_CONST               2 ('S')     
+             20 BINARY_OP               13 (+=)      
+             24 STORE_NAME               0 (flag)    
+
+  6          26 LOAD_NAME                0 (flag)    
+             28 LOAD_CONST               3 ('N')     
+             30 BINARY_OP               13 (+=)      
+             34 STORE_NAME               0 (flag)    
+
+  7          36 LOAD_NAME                0 (flag)
+             38 PUSH_NULL
+             40 LOAD_NAME                1 (str)
+             42 LOAD_CONST               4 (4)
+             44 PRECALL                  1
+             48 CALL                     1
+             58 BINARY_OP               13 (+=)
+             62 STORE_NAME               0 (flag)
+
+  8          64 LOAD_NAME                0 (flag)
+             66 LOAD_CONST               5 ('K')
+             68 BINARY_OP               13 (+=)
+             72 STORE_NAME               0 (flag)
+
+  9          74 LOAD_NAME                0 (flag)
+             76 LOAD_CONST               6 ('E')
+             78 BINARY_OP               13 (+=)
+             82 STORE_NAME               0 (flag)
+
+ 10          84 LOAD_NAME                0 (flag)
+             86 LOAD_CONST               2 ('S')
+             88 BINARY_OP               13 (+=)
+             92 STORE_NAME               0 (flag)
+
+ 11          94 LOAD_NAME                0 (flag)
+             96 LOAD_CONST               7 ('_')
+             98 BINARY_OP               13 (+=)
+            102 STORE_NAME               0 (flag)
+
+ 12         104 LOAD_NAME                0 (flag)
+            106 PUSH_NULL
+            108 LOAD_NAME                1 (str)
+            110 LOAD_CONST               4 (4)
+            112 PRECALL                  1
+            116 CALL                     1
+            126 BINARY_OP               13 (+=)
+            130 STORE_NAME               0 (flag)
+
+ 13         132 LOAD_NAME                0 (flag)
+            134 LOAD_CONST               8 ('R')
+            136 BINARY_OP               13 (+=)
+            140 STORE_NAME               0 (flag)
+
+ 14         142 LOAD_NAME                0 (flag)
+            144 LOAD_CONST               6 ('E')
+            146 BINARY_OP               13 (+=)
+            150 STORE_NAME               0 (flag)
+
+ 15         152 LOAD_NAME                0 (flag)
+            154 LOAD_CONST               7 ('_')
+            156 BINARY_OP               13 (+=)
+            160 STORE_NAME               0 (flag)
+
+ 16         162 LOAD_NAME                0 (flag)
+            164 LOAD_CONST               3 ('N')
+            166 BINARY_OP               13 (+=)
+            170 STORE_NAME               0 (flag)
+
+ 17         172 LOAD_NAME                0 (flag)
+            174 PUSH_NULL
+            176 LOAD_NAME                1 (str)
+            178 LOAD_CONST               9 (0)
+            180 PRECALL                  1
+            184 CALL                     1
+            194 BINARY_OP               13 (+=)
+            198 STORE_NAME               0 (flag)
+
+ 18         200 LOAD_NAME                0 (flag)
+            202 LOAD_CONST              10 ('T')
+            204 BINARY_OP               13 (+=)
+            208 STORE_NAME               0 (flag)
+
+ 19         210 LOAD_NAME                0 (flag)
+            212 LOAD_CONST               7 ('_')
+            214 BINARY_OP               13 (+=)
+            218 STORE_NAME               0 (flag)
+
+ 20         220 LOAD_NAME                0 (flag)
+            222 LOAD_CONST               2 ('S')
+            224 BINARY_OP               13 (+=)
+            228 STORE_NAME               0 (flag)
+
+ 21         230 LOAD_NAME                0 (flag)
+            232 LOAD_CONST              11 ('C')
+            234 BINARY_OP               13 (+=)
+            238 STORE_NAME               0 (flag)
+
+ 22         240 LOAD_NAME                0 (flag)
+            242 PUSH_NULL
+            244 LOAD_NAME                1 (str)
+            246 LOAD_CONST               4 (4)
+            248 PRECALL                  1
+            252 CALL                     1
+            262 BINARY_OP               13 (+=)
+            266 STORE_NAME               0 (flag)
+
+ 23         268 LOAD_NAME                0 (flag)
+            270 LOAD_CONST               8 ('R')
+            272 BINARY_OP               13 (+=)
+            276 STORE_NAME               0 (flag)
+
+ 24         278 LOAD_NAME                0 (flag)
+            280 LOAD_CONST              12 ('Y')
+            282 BINARY_OP               13 (+=)
+            286 STORE_NAME               0 (flag)
+
+ 25         288 LOAD_NAME                0 (flag)
+            290 LOAD_CONST              13 ('}')
+            292 BINARY_OP               13 (+=)
+            296 STORE_NAME               0 (flag)
+            298 LOAD_CONST              14 (None)
+            300 RETURN_VALUE
