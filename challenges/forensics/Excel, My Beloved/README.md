@@ -19,4 +19,4 @@ Excel files are amazing and contains lots of information
 None
 
 ## Flags
-- `YBN{EXC3L_I5_C00L_AND_AMAZING}` (static)
+- `YCEP24{EXC3L_I5_C00L_AND_AMAZING}` (static)
