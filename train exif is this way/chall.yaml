@@ -2,7 +2,7 @@ challenge:
   author: "Tevel"
   category: OSINT
   description: "I obtained this image from Flickr recently. Unfortunately, I lost the initial file which included metadata such as GPS information. I need to find the author (first name) who posted this photo on Flickr and GPS in the original photo."
-    difficulty: "hard"
+  difficulty: "hard"
   discord: "trevelling"
 
   files:
