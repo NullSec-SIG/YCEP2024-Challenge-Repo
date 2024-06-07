@@ -1,5 +1,9 @@
 # Cheese Shop
-This is a sample descriptionMy friend loves cheese, so he opened a cheese shop! It's their grand opening today, come take a look! (ps I heard he sells flags too, but they're exclusive :( Can you help me get one?)
+My friend loves cheese, so he opened a cheese shop! It's their grand opening today, come take a look!
+
+ps I heard he sells flags too, but they're exclusive :(
+
+Can you help me get one?
 
 ## Summary
 - **Author:** Syn Kit
