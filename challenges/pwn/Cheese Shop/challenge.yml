@@ -1,6 +1,7 @@
 name: "Cheese Shop"
 author: "Syn Kit"
 category: Pwn
+difficulty: Easy
 description: "My friend loves cheese, so he opened a cheese shop! It's their grand opening today, come take a look! \nps I heard he sells flags too, but they're exclusive :( \nCan you help me get one?"
 value: 100
 type: standard
