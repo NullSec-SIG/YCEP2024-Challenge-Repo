@@ -6,7 +6,7 @@ Flag format: YCEP24{name_of_book_title/series}
 
 e.g. YCEP{harry_potter}, YCEP{diary_of_a_wimpy_kid} (ALL LOWER CASE)
 ## Hints  
-- `With Jeremy's growing fanbase, Jeremy felt the need to differentiate himself as "the real" deal from other potential impersonators who plan to use his power and influence for their malicious intents.` (20 points)  
+- `With Jeremy's growing fanbase, Jeremy felt the need to differentiate himself as THE REAL deal from other potential impersonators who plan to use his power and influence for their malicious intents.` (20 points)  
 
 ## Flags
 - `YCEP24{geronimo_stilton}` (static)
