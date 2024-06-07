@@ -1,0 +1,24 @@
+name: "fleXOR"
+author: "Syn Kit"
+category: Cryptography
+description: I learned about XOR encryption in Crypto class today, so I tried it out! I encrypted the flag with a key, but I lost the key.. Can you help me decrypt it?
+difficulty: Hard
+value: 100
+type: standard
+
+flags:
+    - YCEP24{r4wr_1_c4n_BRU73_F0RC3_X0R}
+
+topics:
+    - base64
+    - brute force xor
+
+files:
+    - dist/challenge.txt
+
+hints:
+    - {
+        content: "Maybe the flag format might be useful",
+        cost: 20
+    }
+

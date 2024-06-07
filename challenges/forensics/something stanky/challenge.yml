@@ -1,0 +1,17 @@
+challenge:
+  author: "Kairos"
+  category: Forensics
+  description: "In the midst of my daydream, I imagined some weird, stanky network traffic on my computer. Who knew that my daze-induced hallucinations would come true? I managed to capture some stuff before it disappeared, but I can't make heads or tails of it."
+    difficulty: "medium"
+  discord: "kairostay"
+
+  files:
+    - dist/something-stanky.pcapng
+
+  flags:
+    - YCEP24{h41f3d_n3tw0rk_f0r3ns1c5}
+
+  hints:
+    - cost: 20
+      description: "I heard you could export objects from a Wireshark capture file... I wonder how if that could come in handy."
+      requirements: null
