@@ -1,0 +1,17 @@
+challenge:
+  author: "Kairos"
+  category: Forensics
+  description: ""
+    difficulty: "hard"
+  discord: "kairostay"
+
+  files:
+    - dist/
+
+  flags:
+    - YCEP24{w31c0m3_2_u5B_f0r3ns15z}
+
+  hints:
+    - cost: 20
+      description: ""
+      requirements: null
