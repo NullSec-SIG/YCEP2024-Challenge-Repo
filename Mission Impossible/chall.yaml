@@ -18,6 +18,3 @@ challenge:
     - cost: 30
       description: "Surely he is not using his real name..would he?"
       requirements: null
-    - cost: 100
-      description: "Someone told me my eggs are ROtTen just because its been sitting there for 47 hours?"
-      requirements: null
