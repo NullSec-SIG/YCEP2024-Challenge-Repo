@@ -1,0 +1,17 @@
+name: "Barcode Baffler"
+author: "Hazim"
+category: Cryptography
+description: I've been scanning QR codes for my survey side hustle, but this one doesn't seem to work. What's up with this?
+difficulty: medium
+
+
+flags:
+    - YCEP24{1ts_just_@_Barc0d3_man}
+
+topics:
+    - Barcode encryption
+
+hints:
+    - cost: 10
+    description: "My friend said something that goes like xing or zing, I don't know, sounds weird"
+    requirements: null

@@ -1,0 +1,17 @@
+challenge:
+  author: "Tevel"
+  category: OSINT
+  description: "I obtained this image from Flickr recently. Unfortunately, I lost the initial file which included metadata such as GPS information. I need to find the author (first name) who posted this photo on Flickr and GPS in the original photo."
+  difficulty: "hard"
+  discord: "trevelling"
+
+  files:
+    - dist/train-exif-is-this-way.png
+
+  flags:
+    - YCEP24{david-51_30_15.17_N-0_5_8.71_W}
+
+  hints:
+    - cost: 20
+      description: "The title looks funky.. maybe its hinting to a tool..?"
+      requirements: null

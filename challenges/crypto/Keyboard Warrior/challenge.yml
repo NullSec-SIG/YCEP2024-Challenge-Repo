@@ -1,0 +1,20 @@
+name: "Keyboard Warrior"
+author: "Syn Kit"
+category: Cryptography
+description: I'm coming for your kneecaps `TXWO13Pu)fywaa)tiy)x\b)a\t)tiy)qwew)dwwkubf)kyxjwt{`
+difficulty: easy
+value: 100
+type: standard
+
+flags:
+    - YCEP24{i_guess_you_can_say_you_were_feeling_luckey}
+
+topics:
+    - keyboard shift
+
+hints:
+    - {
+        content: "Perhaps if you stare at the keyboard for a while, it might come to you magically :o",
+        cost: 10
+    }
+
