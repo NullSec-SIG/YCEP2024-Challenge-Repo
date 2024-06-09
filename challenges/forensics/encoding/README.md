@@ -10,7 +10,7 @@
 - use base64 encoder/decoder [Base64](https://www.base64decode.org/) (20 Points)
 
 ## Files
-- [`hidden_image.txt`](dist/hidden_image.txt)
+- [`hidden image.txt`](dist/hidden image.txt)
 
 ## Flags
 - `YCEP24{I NEED MORE BOULETS}` (static)
