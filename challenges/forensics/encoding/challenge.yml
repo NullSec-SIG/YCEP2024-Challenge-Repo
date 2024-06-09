@@ -6,7 +6,7 @@ challenge:
   discord: "Rordon Gamsay"
 
   files:
-    - dist/hidden_image.jpg
+    - dist/hidden image.jpg
 
   flags:
     - YCEP24{I NEED MORE BOULETS}
