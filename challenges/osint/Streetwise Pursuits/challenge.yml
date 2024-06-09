@@ -12,6 +12,6 @@ topics:
     - GEOLOCATION
 
 hints:
-    - {
-        Dive into image reversal tools for fresh angles(10 points)
-    }
+    - cost: 10
+    description: "Dive into image reversal tools for fresh angles"
+    requirements: null

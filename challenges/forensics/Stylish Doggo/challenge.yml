@@ -13,6 +13,6 @@ topics:
     - Image Steganography
 
 hints:
-    - {
-        Unraveling secrets can be as simple as opening a plain text editor. Who knows what you might find?(10 points)
-    }
+    - cost: 10
+    description: "Unraveling secrets can be as simple as opening a plain text editor. Who knows what you might find?"
+    requirements: null
