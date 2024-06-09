@@ -4,7 +4,7 @@ For today's magic trick, this program is going to... DISAPPEAR?!?!?!
 ## Summary
 - **Author:** Yu Yang
 - **Category:** Reverse Engineering
-- **Difficulty:** Hard
+- **Difficulty:** Insane
 
 ## Hints
 - `How does this program vanish on its own?`
