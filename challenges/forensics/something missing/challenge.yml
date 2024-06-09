@@ -1,0 +1,17 @@
+challenge:
+  author: "Kairos"
+  category: Forensics
+  description: "In the midst of my daydream, my USB stick got tampered with and once of my secret files got deleted! Seriously? Out of everything? Please, please please! Find the file for me. (Note: unzip the file with `unzip /path/to/something-missing.zip)"
+    difficulty: "hard"
+  discord: "kairostay"
+
+  files:
+    - dist/something-missing.zip
+
+  flags:
+    - YCEP24{w31c0m3_2_u5B_f0r3ns15z}
+
+  hints:
+    - cost: 20
+      description: "Autopsy is really useful!"
+      requirements: null

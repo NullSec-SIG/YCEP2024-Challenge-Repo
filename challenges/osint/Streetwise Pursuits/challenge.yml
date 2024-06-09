@@ -1,0 +1,17 @@
+name: "Streetwise Pursuit"
+author: "Hazim"
+category: OSINT
+description: what is the name of the place the image is taken at? WHERE IS HE AT!?!?!?!?!?!
+difficulty: easy
+
+
+flags:
+    - YCEP24{Hudson_River_Waterfront_Walkway} 
+
+topics:
+    - GEOLOCATION
+
+hints:
+    - cost: 10
+    description: "Dive into image reversal tools for fresh angles"
+    requirements: null
