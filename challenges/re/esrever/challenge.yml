@@ -32,7 +32,7 @@ files:
 # Accepts dictionaries or strings
 hints:
     - {
-        content: "read the title again",
+        content: "read the challenge name again",
         cost: 10
     }
     - {
