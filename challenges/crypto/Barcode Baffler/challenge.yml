@@ -12,6 +12,6 @@ topics:
     - Barcode encryption
 
 hints:
-    - {
-        My friend said something that goes like xing or zing, I don't know, sounds weird (10 points)
-    }
+    - cost: 10
+    description: "My friend said something that goes like xing or zing, I don't know, sounds weird"
+    requirements: null
