@@ -7,12 +7,10 @@ difficulty: medium
 
 
 flags:
-    - YCEP24{1ts_just_@_Barc0d3_man}
+    - YCEP24{heil_hitler}
 
-topics:
-    - Barcode encryption
 
 hints:
     - {
-        My friend said something that goes like xing or zing, I don't know, sounds weird (10 points)
+        This cipher was invented in the 19th century and was used by the British Army during World War I and by the Allies during World War II for tactical purposes.
     }
