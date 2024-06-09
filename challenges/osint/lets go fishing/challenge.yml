@@ -6,7 +6,7 @@ challenge:
   discord: "Rordon Gamsay"
 
 files:
-  - link: dist/email.jpg
+  - dist/email.jpg
 
 hints:
   - something fishy must be going ahhhh! could it be the enggrish grammars? the email receipient?? the suspicious links?!
