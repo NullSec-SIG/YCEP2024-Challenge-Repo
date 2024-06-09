@@ -1,4 +1,4 @@
-# encoding
+# Secret Hidden Encoded Text
 
 ## Summary
 - **Author:** Dion
