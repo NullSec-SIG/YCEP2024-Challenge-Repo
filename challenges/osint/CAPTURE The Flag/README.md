@@ -9,7 +9,7 @@ Ngee Ann Polytechnic has some pretty cool hangout spots. This is my favourite! H
 
 ## Hints
 - `Looking at NP's socials might give you a clue!` (20 points)
-- ```Here's another POV `dist/pov2.jpg` ``` (30 points)
+- `Here's another POV https://drive.google.com/file/d/1KFXH_lRsR6i9wLTSXXYIHG69bTH_Q1C9/view?usp=sharing` (30 points)
 
 ## Files
 - [dimensional.jpg](dist/dimensional.jpg)
