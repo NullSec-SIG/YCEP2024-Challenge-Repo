@@ -9,6 +9,8 @@ difficulty: medium
 flags:
     - YCEP24{heil_hitler}
 
+topic:
+    - Playfair Cipher
 
 hints:
     - {
