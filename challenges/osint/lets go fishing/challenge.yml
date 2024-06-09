@@ -1,0 +1,12 @@
+challenge:
+  author: "Dion"
+  category: OSINT
+  description: "fishing? hmm.. i think it's the wrong kind of fishing bro/sis" 
+  difficulty: "Medium"
+  discord: "Rordon Gamsay"
+
+hints:
+  - something fishy must be going ahhhh! could it be the enggrish grammars? the email receipient?? the suspicious links?!
+    
+flags:
+  - YCEP24{Stripe1111@patrica.hostpilot.com}
