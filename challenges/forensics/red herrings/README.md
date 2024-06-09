@@ -1,6 +1,6 @@
 # red herrings
 
-the fishes in the sea are plentiful! so many red herrings!
+the fishes in the sea are plentiful! so many red herrings! Don't fall for the obvious tricks - the flag is much more well hidden
 
 ## Summary
 
@@ -10,7 +10,7 @@ the fishes in the sea are plentiful! so many red herrings!
 
 ## Hints
 
-- `What *is* a red herring?` (20 points)
+- `Picture number 3 seems to be suspicious. But where is the flag?` (20 points)
 
 ## Files
 
