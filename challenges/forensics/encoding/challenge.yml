@@ -12,4 +12,4 @@ challenge:
     - YCEP24{I NEED MORE BOULETS}
 
   hints:
-    - use "[Base64](https://www.base64decode.org/)" encoder/decoder
+    - use Base64 encoder/decoder ("https://www.base64decode.org")
