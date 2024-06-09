@@ -17,4 +17,4 @@ For today's magic trick, this program is going to... DISAPPEAR?!?!?!
 - [chall](dist/chall)
 
 ## Flags
-- `YCEP24{BR34KP01N7S_4RE_US3FUL}` (static)
+- `YCEP24{H1D_4ND_S0UGH7_H3H3H3H3H3H3}` (static)
