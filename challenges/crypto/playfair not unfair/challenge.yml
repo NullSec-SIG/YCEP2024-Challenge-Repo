@@ -5,12 +5,8 @@ category: Cryptography
 description: this message is specially sent from a country, to convey an important message to our late Mr Lee Kuan Yew
 difficulty: medium
 
-
-flags:
+flag:
     - YCEP24{heil_hitler}
-
-topic:
-    - Playfair Cipher
 
 hints:
     {
