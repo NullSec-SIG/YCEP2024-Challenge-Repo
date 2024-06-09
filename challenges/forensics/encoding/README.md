@@ -7,7 +7,7 @@
 - **Difficulty:** Easy
 
 ## Hints
-- use base64 encoder/decoder [Base64](https://www.base64decode.org/) (20 Points)
+- use [Base64](https://www.base64decode.org/) Encoder/Decoder (20 Points)
 
 ## Files
 - [`hidden image.txt`](dist/hidden%20image.txt)
