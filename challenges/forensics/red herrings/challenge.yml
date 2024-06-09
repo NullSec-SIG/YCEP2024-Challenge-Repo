@@ -1,7 +1,7 @@
 challenge:
   author: "Jun Jie"
   category: Forensics
-  description: "the fishes in the sea are plentiful! so many red herrings!"
+  description: "the fishes in the sea are plentiful! so many red herrings! Don't fall for the obvious tricks - the flag is much more well hidden"
   difficulty: "easy"
   discord: "mintyly"
 
@@ -13,5 +13,5 @@ challenge:
 
   hints:
     - cost: 20
-      description: "What *is* a red herring?"
+      description: "Picture number 3 seems to be suspicious. But where is the flag?"
       requirements: null
