@@ -15,9 +15,9 @@ topics:
     - Columnar Transposition
 
 hints:
-    - {
-        There seems to be a riddle here, it says: 'Within my columns, secrets reside,
+    - cost: 10
+    description: "There seems to be a riddle here, it says: 'Within my columns, secrets reside,
                                                    Transpose with care, where answers hide.
                                                    A cryptic dance, a puzzle to solve,
-                                                   With wit and patience, your skills evolve' (10 points)
-    }
+                                                   With wit and patience, your skills evolve'"
+    requirements: null
