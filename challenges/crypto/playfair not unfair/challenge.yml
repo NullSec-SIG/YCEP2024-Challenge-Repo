@@ -1,1 +1,18 @@
 
+name: "playfair not unfair"
+author: "Dion"
+category: Cryptography
+description: this message is specially sent from a country, to convey an important message to our late Mr Lee Kuan Yew
+difficulty: medium
+
+
+flags:
+    - YCEP24{1ts_just_@_Barc0d3_man}
+
+topics:
+    - Barcode encryption
+
+hints:
+    - {
+        My friend said something that goes like xing or zing, I don't know, sounds weird (10 points)
+    }
