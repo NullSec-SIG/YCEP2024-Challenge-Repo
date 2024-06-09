@@ -1,0 +1,19 @@
+name: "Magic Table"
+author: "bowen"
+category: web
+difficulty: hard
+description: |
+    Hey I stumbled across this periodic table that checks
+    if two unequal elements are equal?! Could you please
+    please please please help me get the flag?
+value: 250
+type: standard
+
+flags:
+    - YCEP24{php_w34k_7yp3_c0mp4r150n5}
+
+topics:
+    - web exploitation
+
+files:
+    - dist/MagicTable.zip
