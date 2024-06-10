@@ -1,0 +1,17 @@
+challenge:
+  author: "Jun Jie"
+  category: Forensics
+  description: "the fishes in the sea are plentiful! so many red herrings! Don't fall for the obvious tricks - the flag is much more well hidden"
+  difficulty: "easy"
+  discord: "mintyly"
+
+  files:
+    - dist/redherring.zip
+
+  flags:
+    - YCEP24{sl3pt_w1th_th3_f1sh35}
+
+  hints:
+    - cost: 20
+      description: "Picture number 3 seems to be suspicious. But where is the flag?"
+      requirements: null
