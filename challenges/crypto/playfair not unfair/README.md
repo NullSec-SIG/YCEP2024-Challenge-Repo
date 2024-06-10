@@ -16,4 +16,4 @@
 
 
 ## Flags
-- `YCEP24{Singapore_0_Korea_7}` (static)
+- `YCEP24{QKMHDRACD_KK_ZKB_ADKZ}` (static)
