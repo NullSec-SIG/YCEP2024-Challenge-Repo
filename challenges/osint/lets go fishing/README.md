@@ -8,7 +8,7 @@ fishing? hmm.. i think it's the wrong kind of fishing bro/sis its more of phishi
 - **Difficulty:** Easy
 
 ## Hints
-- **something super and obviously fishy must be going ahhhh! could it be the enggrish grammars? the email receipient?? the suspicious links?!**
+- **hmm, what is the first thing should be looked out for when you first receive the email?** (10 Points)
 
 ## Files
 - [email.jpg](dist/email.jpg)
