@@ -1,0 +1,17 @@
+name: "Cheese Shop"
+author: "Syn Kit"
+category: Pwn
+difficulty: Easy
+description: "My friend loves cheese, so he opened a cheese shop! It's their grand opening today, come take a look! \nps I heard he sells flags too, but they're exclusive :( \nCan you help me get one?"
+value: 100
+type: standard
+
+connection_info: nc hostname 12345
+
+flags:
+    - YCEP24{n3v3r_7ru57_u53r_1npu777}
+
+topics:
+    - Insufficient logic checking / user input validation (negative values)
+
+
