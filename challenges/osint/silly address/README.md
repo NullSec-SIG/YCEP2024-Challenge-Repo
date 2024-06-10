@@ -10,4 +10,4 @@ Flag format: YCEP24{SSID}, for e.g., if the SSID is Wirelink@NgeeAnnPoly, the fl
 - **Difficulty:** easy
 
 ## Flags
-- `YCEP24{}` (static)
+- `YCEP24{Wireless@GentingHotelJurong}` (static)
