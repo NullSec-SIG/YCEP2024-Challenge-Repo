@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iDoor - Apple Door</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>iDoor</h1>
+        <p>The Future of Doors</p>
+    </header>
+
+    <main>
+        <section class="product">
+            <h2>About iDoor</h2>
+            <img src="apple_idoor.webp" alt="Apple Door" class="product-image">
+            <p>Welcome to the future of doors. iDoor is an innovative product designed to revolutionize the way you
+                think about doors. With seamless integration into your smart home ecosystem, iDoor offers security,
+                style, and convenience.</p>
+        </section>
+
+        <section class="voucher">
+            <h2>Generate Voucher Code</h2>
+            <p>Get a discount on your first purchase by generating a voucher code below:</p>
+            <button onclick="generateVoucher()">Generate Code</button>
+            <p id="voucher-code"></p>
+        </section>
+        <section class="hints">
+            <p>
+                Orrnlqj iru wkh iodj? <br> Wub brxu oxfn zlwk vfudslqj <code>frghv/FRGH_*_2024</code>. Grq'w zruub, brx
+                zrq'w
+                qhhg d SkG
+                lq frgh-fudfnlqj
+                <br>
+                Jrrg oxfn!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 iDoor. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function generateVoucher() {
+            const voucherCode = 'CODE_' + Math.floor(Math.random() * 1000) + '_2024';
+            const voucherUrl = `codes/${voucherCode}.html`;
+            document.getElementById('voucher-code').innerHTML = `Your Voucher Code: <a href="${voucherUrl}" target="_blank">${voucherCode}</a>`;
+        }
+    </script>
+</body>
+
+</html>

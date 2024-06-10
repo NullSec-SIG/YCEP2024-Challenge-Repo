@@ -1,0 +1,28 @@
+name: "CAPTURE The Flag"
+author: "Syn Kit"
+category: OSINT
+description: "Ngee Ann Polytechnic has some pretty cool hangout spots. This is my favourite! Heard that the flag is located here somewhere.. Where is this place? (Note: Do check with the EXCOs before going to the location to prevent going on a wild goose chase)"
+difficulty: Hard
+value: 100
+type: standard
+
+flags:
+    - YCEP24{tR345UR3_HUN71NG}
+
+topics:
+    - Geolocation
+    - Social Media
+
+files:
+    - dist/capture-the-flag.jpg
+
+hints:
+    - {
+        content: "Looking at NP's socials might give you a clue!",
+        cost: 20
+    }
+    - {
+        content: "Here's another POV `dist/pov2.jpg`",
+        cost: 30
+    }
+

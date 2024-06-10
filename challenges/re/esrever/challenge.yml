@@ -11,8 +11,9 @@ value: 100
 type: standard
 
 flags:
-    # A static case sensitive flag
-    - YCEP24{r3v3rs3_3ng1n333r1ng_g3t_1t_h4h4h4h3h33h3h333}
+ - YCEP24{r3v3rs3_3ng1n333r1ng_g3t_1t_h4h4h4h3h33h3h333}
+
+
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

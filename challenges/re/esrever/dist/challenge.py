@@ -4,4 +4,6 @@ def do_something(flag):
 #string to figure out
 print("}333h3h33h3h4h4h4h_t1_t3g_gn1r333n1gn3_3sr3v3r{42PECY")
 
-do_something("}333h3h33h3h4h4h4h_t1_t3g_gn1r333n1gn3_3sr3v3r{42PECY")
+
+
+
