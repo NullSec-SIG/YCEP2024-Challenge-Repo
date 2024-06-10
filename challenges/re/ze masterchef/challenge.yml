@@ -12,7 +12,7 @@ type: standard
 
 flags:
     # A static case sensitive flag
-    - YCEP2024{1_l0oo0ve_scr4mb13d_3gg5_n_m4gn0l14_mm1lk}
+    - YCEP24{1_l0oo0ve_scr4mb13d_3gg5_n_m4gn0l14_mm1lk}
 
 # Topics are used to help tell what techniques/information a challenge involves
 # They are generally only visible to admins

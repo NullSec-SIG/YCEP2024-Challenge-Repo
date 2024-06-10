@@ -15,7 +15,7 @@ def reverse_scramble(scrambled_flag):
             char_list[i-1] = templetter
     print(''.join(char_list))
 
-scrambled_flag = "CYPE02421{l_o00oevs_rcm41bd33_gg_5_n4mngl041m_1mkl}"
+scrambled_flag = "CYPE421{l_o00oevs_rcm41bd33_gg_5_n4mngl041m_1mkl}"
 reverse_scramble(scrambled_flag)
 
 
