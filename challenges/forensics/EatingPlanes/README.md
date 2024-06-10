@@ -6,7 +6,7 @@ mmmmmm I love eating planessss.... Although, gotta remember to bite and chew my 
 - **Author:** Ravin
 - **Discord Username:** p3rpl3x
 - **Category:** Forensics
-- **Difficulty:** Medium
+- **Difficulty:** Hard
 
 ## Hints
 - `Google more about bit planes!` (50 points)
