@@ -8,7 +8,7 @@ I made a console app that greets users! Surely it's secure, right?
 - **Difficulty:** Medium
   
 ## Connection Info
-`nc hostname 12345`
+`nc hostname 12310`
 
 ## Files
 - ![chall.c](dist/chall.c)
