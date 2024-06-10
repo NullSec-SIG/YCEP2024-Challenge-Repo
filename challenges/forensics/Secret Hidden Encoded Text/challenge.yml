@@ -9,7 +9,8 @@ challenge:
     - dist/hidden image.jpg
 
   flags:
-    - YCEP24{I NEED MORE BOULETS}
+    - YCEP24{I_NEED_MORE_BOULETS}
 
   hints:
+    - Used to encode binary data (such as image). this encoding has a 64 ASCII characters
     - use ("https://www.base64decode.org") Encoder/Decoder (20 Points)
