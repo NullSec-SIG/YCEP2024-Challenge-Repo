@@ -1,5 +1,5 @@
 # lets go fishing
-fishing? hmm.. i think it's the wrong kind of fishing bro/sis
+fishing? hmm.. i think it's the wrong kind of fishing bro/sis its more of phishing ah. hmm specifics? email.
 
 ## Summary
 - **Author:** Dion
