@@ -11,7 +11,7 @@
 - use [Base64](https://www.base64decode.org/) Encoder/Decoder (20 Points)
 
 ## Files
-- [`hidden image.txt`](dist/hidden%20image.txt)
+- [`hidden image.txt`](dist/hidden_image.txt)
 
 ## Flags
 - `YCEP24{I_NEED_MORE_BOULETS}` (static)
