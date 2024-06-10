@@ -2,7 +2,7 @@ name: "Yumminess"
 author: "Daksh"
 discord: "dakshthapar"
 category: Cryptography
-description: Can you guess my favourite food and subject? UPPERCASE with underscores in between. Encapsulate the flag with YCEP24{}.
+description: Can you guess my favourite food and subject? Check the hints.txt file for free hints. UPPERCASE with underscores in between. Encapsulate the flag with YCEP24{}.
 difficulty: Medium
 value: 200
 type: standard
@@ -12,6 +12,7 @@ flags:
 
 files:
   - dist/Yumminess.txt
+  - dist/hints.txt
 
 hints:
   - { content: "I love hydrogen and carbon!", cost: 20 }
