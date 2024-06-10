@@ -11,4 +11,4 @@
 - **or maybe it could be the name itself! :O**
 
 ## Flags
-- `YCEP24{heil_hitler}` (static)
+- `YCEP24{Singapore_0_Korea_7}` (static)
