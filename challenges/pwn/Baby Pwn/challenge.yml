@@ -14,4 +14,7 @@ flags:
 topics:
     - Buffer Overflow
 
+files:
+- dist/chall.c
+
 
