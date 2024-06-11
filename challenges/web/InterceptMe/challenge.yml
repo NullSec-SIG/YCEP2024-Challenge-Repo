@@ -1,0 +1,13 @@
+name: "InterceptMe"
+author: "kairos"
+category: web
+difficulty: easy
+description: "Intercept my traffic and maybe I'll give you something in return. https://intercept-me.vercel.app/"
+
+type: standard
+
+flags:
+    - YCEP24{w0W_yU_kn0W_H0w_2_iNT3RCep7!!}
+
+topics:
+    - web exploitation
