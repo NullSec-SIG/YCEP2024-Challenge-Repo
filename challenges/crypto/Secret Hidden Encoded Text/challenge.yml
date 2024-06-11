@@ -1,0 +1,20 @@
+challenge:
+  author: "Dion"
+  category: Crypto
+  description: "Perhaps maybe some protocols may intepret the RAW binary data that is sent to the internet. Your RAW binary data can be corrupted when sending files or other texts over the internet!!! Flag format: `YCEP24{flag}`"
+  difficulty: "Medium"
+  discord: "Rordon Gamsay"
+
+  files:
+    - dist/hidden image.jpg
+
+  flags:
+    - YCEP24{I_NEED_MORE_BOULETS}
+
+  hints:
+    - cost: 20
+      description: "Used to encode binary data (such as image). this encoding has a 64 ASCII characters"
+      requirements: null
+    - cost: 20
+      description: "use (https://www.base64decode.org) Encoder/Decoder"
+      requirements: null
