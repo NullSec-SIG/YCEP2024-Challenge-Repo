@@ -1,0 +1,22 @@
+name: "CLI"
+author: "Syn Kit"
+category: Pwn
+difficulty: Easy
+description: "As you delve deeper into cybersecurity and CTFs, you will slowly be moving away from the Graphical User Interface (GUI; think Windows and clicky buttons) \
+and be working more with the command line. \n `netcat` is a command line utility for reading from and writing to network connections using TCP or UDP, and we will be using it to connect to the challenge instance. \n\
+Connect to the instance and navigate the OS to get the flag: `nc hostname 13337`"
+value: 100
+type: standard
+
+connection_info: nc hostname 13337
+
+flags:
+    - YCEP24{c0mm4nd_L1n3_1S_N0T_SC4RY}
+
+
+topics:
+    - Command line 
+    - Linux 
+    - Netcat
+
+

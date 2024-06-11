@@ -1,0 +1,13 @@
+name: "ReferMe"
+author: "kairos"
+category: web
+difficulty: easy
+description: "Refer me from the right place and I will give you the flag. https://refer-me-ycep24.vercel.app/"
+
+type: standard
+
+flags:
+    - YCEP24{r3f3R_m3_n140w}
+
+topics:
+    - web exploitation

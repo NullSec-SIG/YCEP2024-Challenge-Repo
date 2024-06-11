@@ -1,7 +1,3 @@
-# This file represents the base specification of your challenge. It is used by
-# other tools to install and deploy your challenge.
-
-# Required sections
 name: "Dimensional"
 author: "Syn Kit"
 category: Forensics
@@ -10,42 +6,15 @@ difficulty: Hard
 value: 100
 type: standard
 
-# The extra field provides additional fields for data during the install/sync commands/
-# Fields in extra can be used to supply additional information for other challenge types
-# For example the follow extra field is for dynamic challenges. To use these following
-# extra fields, set the type to "dynamic" and uncomment the "extra" section below
-# extra:
-#     initial: 500
-#     decay: 100
-#     minimum: 50
-
-# Optional settings
-
-# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
-#connection_info: nc hostname 12345
-
-# Flags specify answers that your challenge use. You should generally provide at least one.
-# Can be removed if unused
-# Accepts strings or dictionaries of CTFd API data
 flags:
-    # A static case sensitive flag
     - YCEP24{n0w_y0u_c4n_533_M3}
 
-# Topics are used to help tell what techniques/information a challenge involves
-# They are generally only visible to admins
-# Accepts strings
 topics:
     - Altering jpg image dimensions in hex
 
-# Provide paths to files from the same directory that this file is in
-# Accepts strings
 files:
     - dist/dimensional.jpg
 
-# Hints are used to give players a way to buy or have suggestions. They are not
-# required but can be nice.
-# Can be removed if unused
-# Accepts dictionaries or strings
 hints:
     - {
         content: "A hex editor might be useful",
