@@ -2,8 +2,8 @@
 name: "playfair not unfair"
 author: "Dion"
 category: Cryptography
-description: this message is specially sent from a country, to convey an important message to our late Mr Lee Kuan Yew. Some said... `CRYPTO`?
-difficulty: medium
+description: this message is specially sent from a country, to convey an important message to our late Mr Lee Kuan Yew. Someone said the key was... `CRYPTO`?
+difficulty: easy
 
 flag:
     - YCEP24{SINGAPORE_IS_THE_BEST}

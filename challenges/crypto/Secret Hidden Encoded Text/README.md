@@ -1,10 +1,11 @@
 # Secret Hidden Encoded Text
+Perhaps maybe some protocols may intepret the RAW binary data that is sent to the internet. Your RAW binary data can be corrupted when sending files or other texts over the internet!!! Flag format: `YCEP24{flag}`
 
 ## Summary
 - **Author:** Dion
 - **Discord Username:** Rordon Gamsay
-- **Category:** Forensics
-- **Difficulty:** Easy
+- **Category:** Crypto
+- **Difficulty:** Medium
 
 ## Hints
 - Used to encode binary data (such as image). this encoding has a 64 ASCII characters
