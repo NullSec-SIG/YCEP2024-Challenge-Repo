@@ -2,7 +2,7 @@ challenge:
   author: "Galen"
   category: Forensics
   description: "I am hearing chatter about Johns and Cats, is john a cat?"
-  difficulty: "easy"
+  difficulty: "medium"
   discord: "galenious_"
 
   files:
