@@ -5,7 +5,7 @@ Come one come all! the pachinko machine is open! Spin and claim your prize... Th
 ## Summary
 
 - **Author:** Jun Jie
-- **Category:** Forensics
+- **Category:** Misc
 - **Difficulty:** Medium
 
 ## Hints
