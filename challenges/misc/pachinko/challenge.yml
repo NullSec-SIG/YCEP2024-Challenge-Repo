@@ -1,0 +1,17 @@
+challenge:
+  author: "Jun Jie"
+  category: Misc
+  description: "Come one come all! the pachinko machine is open! Spin and claim your prize... That is if you can find it ;)"
+  difficulty: "medium"
+  discord: "mintyly"
+
+  files:
+    - dist/pachinko.zip
+
+  flags:
+    - YCEP24{y0u_w1n!1!}
+
+  hints:
+    - cost: 20
+      description: "what if you could automate the process?"
+      requirements: null

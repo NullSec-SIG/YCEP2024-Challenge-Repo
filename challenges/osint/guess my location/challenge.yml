@@ -1,0 +1,17 @@
+challenge:
+  author: "Galen"
+  category: Osint
+  description: "Being a librarian is tiring work, so Jeremy Ong is off on a holiday somewhere, at some place. He sent me an image, and challenged me to guess the city that he is in, can you help be out?"
+  difficulty: "easy"
+  discord: "galenious_"
+
+  files:
+    - dist/image.jpg
+
+  flags:
+    - YCEP24{malaysia,johor_bahru}
+
+  hints:
+    - cost: 20
+      description: "I heard Jeremy mention something about only having the budget for a trip to a country within SEA"
+      requirements: null
