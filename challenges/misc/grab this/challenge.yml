@@ -1,0 +1,12 @@
+challenge:
+  author: "Kairos"
+  category: Misc
+  description: "Grep is a really useful tool for searching for a specific string in a file. Maybe you could show me your skills?"
+  difficulty: "easy"
+  discord: "kairostay"
+
+   files:
+    - dist/text.txt
+
+  flags:
+    - 
