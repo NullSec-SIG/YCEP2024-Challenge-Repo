@@ -1,0 +1,12 @@
+challenge:
+  author: "Kairos"
+  category: Misc
+  description: "My friend is convinced that he should be a writer. With this atrocious handwriting? I don't think so."
+  difficulty: "easy"
+  discord: "kairostay"
+
+  files:
+    - dist/writer.zip
+
+  flags:
+    - YCEP24{C4n_You_Ev3n_R34d_th15_7ext}
