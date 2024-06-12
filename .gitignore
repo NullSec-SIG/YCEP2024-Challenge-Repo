@@ -8,5 +8,8 @@ tags
 .DS_Store
 [Dd]esktop.ini
 
+# Python cache
+__pycache__
+
 # Please I need this to survive (Bowen)
 Dockerization-Source
