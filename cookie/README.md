@@ -7,7 +7,7 @@ Cookie Monster wants all your cookiesssssssssss
 - **Author:** Tevel
 - **Discord Username:** trevelling 
 - **Category:** Web
-- **Difficulty:** Easy
+- **Difficulty:** Medium
 
 ## Hints
 
