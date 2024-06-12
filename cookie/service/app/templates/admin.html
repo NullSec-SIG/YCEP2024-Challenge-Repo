@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}hey its you!{% endblock %}
+
+{% block content %}
+<div style="text-align: center; padding: 20px;">
+    <h1 style="color: white;">🍪 DELICIOSO 🍪</h1>
+</div>
+<div style="position: relative; text-align: center;">
+    <!-- Image positioned on top -->
+    <img src="{{ url_for('static', filename='admin_cookie_monster.jpeg') }}" alt="admin cookie monster" height="400px" width="500px" style="position: relative; z-index: 1;">
+    <!-- Hidden text positioned behind the image -->
+    <p id="hiddenText" style="color: black; position: absolute; bottom: 80%; right: 5%; z-index: 999; font-size: 20px;">YCEP24{c00k13_m0n573r_7r345ur35}</p>
+</div>
+<style>
+    #hiddenText::selection {
+        background-color: #121212;
+        color: #333;
+    }
+</style>
+<script>
+    // Disable inspect element
+    document.addEventListener('contextmenu', function(e) {
+        e.preventDefault();
+    }, false);
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+            e.preventDefault();
+        }
+    }, false);
+</script>
+{% endblock %}
