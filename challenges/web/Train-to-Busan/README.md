@@ -5,7 +5,7 @@ compromised. The attackers have leaked some of its
 source code online. Find the vulnerability and cat
 the flag before the infection spreads?!
 
-https://train-to-busan.vercel.app/
+https://train-to-busan-ycep24.vercel.app/
 
 ## Summary
 
