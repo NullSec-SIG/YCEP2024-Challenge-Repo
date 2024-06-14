@@ -1,0 +1,17 @@
+challenge:
+  author: "Galen"
+  category: Forensics
+  description: "I am hearing chatter about Johns and Cats, is john a cat?"
+  difficulty: "medium"
+  discord: "galenious_"
+
+  files:
+    - dist/challenge.zip
+
+  flags:
+    - YCEP24{H@sh_D33z_nutz}
+
+  hints:
+    - cost: 20
+      description: "I heard my friends mention something about retrieving the hash of the zip in a crackable format?"
+      requirements: null

@@ -6,7 +6,7 @@
   <li>Author: Hazim</li>
   <li>Discord Username: hh__.91</li>
   <li>Category: Cryptography</li>
-  <li>Difficulty: Easy</li>
+  <li>Difficulty: Medium</li>
 </ul>
 
 <h2>Hints</h2>

@@ -1,0 +1,13 @@
+name: "Geotrouble"
+author: "Yong Shyan"
+category: OSINT
+description: OHNOOOOOOOOOOOOO! A hacker from an organisation has infiltrated our base that goes by the username wham1257. Help me find the location of where he and his organisation might be! The flag in is the format YCEP24{flag}. Flag should be replaced with the name of the place in google maps, no caps or spaces
+difficulty: hard
+
+flags:
+    - YCEP24{ku-kaiizakaya}
+
+hints:
+    - cost: null
+    description: null
+    requirements: null

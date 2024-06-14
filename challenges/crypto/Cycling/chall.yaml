@@ -2,7 +2,7 @@ challenge:
   author: "Ravin"
   category: Cryptography
   description: "Life is a cyclic journey, much like cycling through the ups and downs."
-  difficulty: "Medium"
+  difficulty: "Hard"
   discord: "p3rpl3x"
 
   flags:

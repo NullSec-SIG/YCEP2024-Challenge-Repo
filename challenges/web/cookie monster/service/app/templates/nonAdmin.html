@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Unauthorized!!{% endblock %}
+
+{% block content %}
+<div style="text-align: center; padding: 20px;">
+    <h1 style="color: white;">NO COOKIE NO ACCESS!</h1>
+</div>
+<div>
+    <center><img src="{{ url_for('static', filename='angry_cookie_monster.jpeg') }}" alt="angry cookie monster" height="400px" width="500px"></center>
+</div>
+{% endblock %}
