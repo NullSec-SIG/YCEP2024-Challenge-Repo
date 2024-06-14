@@ -15,6 +15,9 @@ type: standard
 #     decay: 100
 #     minimum: 50
 
+files:
+    - dist/app.py
+
 # Optional settings
 
 # Flags specify answers that your challenge use. You should generally provide at least one.

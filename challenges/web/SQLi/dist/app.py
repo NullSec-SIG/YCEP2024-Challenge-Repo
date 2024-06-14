@@ -7,8 +7,8 @@ app = Flask(__name__)
 
 # Database configuration
 db_config = {
-    'user': 'root',
-    'password': 'SuperSecretPassword123!@YCEP24',
+    'user': '[REDACTED]',
+    'password': '[REDACTED]',
     'host': 'db',
     'database': 'mydatabase'
 }
@@ -33,7 +33,7 @@ def init_db():
                 )
             """)
             print("Table created successfully or already exists.")
-            cursor.execute("INSERT INTO users (username, password) VALUES ('admin', 'CrazyPassword_CrazyCrazySafe_EpicPassword') ON DUPLICATE KEY UPDATE username=username")
+            cursor.execute("INSERT INTO users (username, password) VALUES ('admin', '[REDACTED]') ON DUPLICATE KEY UPDATE username=username")
             connection.commit()
             print("Dummy user inserted or already exists.")
             cursor.close()
@@ -151,6 +151,7 @@ def login():
         if any(keyword in query.upper() for keyword in banned_keywords):
             error = "Banned keywords used."
             return render_template_string(login_page, error=error)
+        
         print(f"Executing query: {query}")
         
         # Execute the query
@@ -161,11 +162,11 @@ def login():
             result = cursor.fetchone()
             cursor.close()
             connection.close()
-            
             if result:
-                return "Login successful! Flag: YCEP24{SQL_1njec7i0n_15_fun}"
+                return "Login successful! Flag: YCEP24{[REDACTED]}"
             else:
                 error = "Invalid credentials"
+
         except mysql.connector.Error as err:
             print(f"Error: {err.msg}")
             error = f"Database error: {err.msg}"
@@ -174,4 +175,4 @@ def login():
 
 init_db()
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5000, debug=True)
