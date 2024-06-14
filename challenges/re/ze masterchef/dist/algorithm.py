@@ -11,4 +11,5 @@ def scramble(flag):
     print(char_list)
 
 #scrambled flag
-print("CYPE02421{l_o00oevs_rcm41bd33_gg_5_n4mngl041m_1mkl}")
+print("CYPE421{l_o00oevs_rcm41bd33_gg_5_n4mngl041m_1mkl}")
+

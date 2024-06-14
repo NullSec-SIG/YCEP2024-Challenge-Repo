@@ -1,0 +1,17 @@
+challenge:
+  author: "Ravin"
+  category: Forensics
+  description: "mmmmmm I love eating planessss.... Although, gotta remember to bite and chew my food and not swallow it whole!"
+  difficulty: "hard"
+  discord: "p3rpl3x"
+
+  files:
+    - dist/WUNFUDI0e0Y0S0VfRkw0R19MMEx9.jpg
+
+  flags:
+    - YCEP24{ImB1T1nGtHePl4ne}
+
+  hints:
+    - cost: 50
+      description: "Google more about bit planes!"
+      requirements: null

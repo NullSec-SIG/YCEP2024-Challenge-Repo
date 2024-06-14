@@ -1,0 +1,17 @@
+challenge:
+  author: "Ravin"
+  category: Forensics
+  description: "Tress love to steal my information. I need it back soon pls help me retrieve it from the forest of doom"
+  difficulty: "easy"
+  discord: "p3rpl3x"
+
+  files:
+    - dist/hreetugger.jpg
+
+  flags:
+    - YCEP24{N4TUR3_1S_C00L}
+
+  hints:
+    - cost: 1
+      description: "try harder LOL"
+      requirements: null

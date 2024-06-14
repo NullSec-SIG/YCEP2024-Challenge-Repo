@@ -1,0 +1,19 @@
+name: "Moonwalk"
+author: "Syn Kit"
+category: Forensics
+description: I love playing around with photoshop :D
+difficulty: Easy
+value: 100
+type: standard
+
+flags:
+    - YCEP24{th3r35_0f73N_M0r3_7H4N_M3375_7H3_EYE}
+
+topics:
+    - Embedding files to image
+
+files:
+    - dist/moonwalk.jpg
+
+
+
