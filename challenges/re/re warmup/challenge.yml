@@ -1,0 +1,12 @@
+challenge:
+  author: "Kairos"
+  category: Reverse
+  description: "It's warmup time!"
+  difficulty: "easy"
+  discord: "kairostay"
+
+  files:
+    - dist/warmup.py
+
+  flags:
+    - YCEP24{w4rmup_15_ezpz}
