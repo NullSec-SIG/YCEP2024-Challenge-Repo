@@ -15,3 +15,9 @@ challenge:
     - cost: 50
       description: "Some things are always in 'plain sight'!"
       requirements: null
+
+services:
+  Cookie-Monster:
+    name: "Cookie-Monster"
+    path: service
+    port: '5000'
