@@ -1,0 +1,62 @@
+networks:
+  train-to-busan:
+  cookie-monster:
+  idoor:
+  magic-table:
+  sqli:
+  valuable-insights:
+
+services:
+  train-to-busan:
+    build: challenges/web/Train-to-Busan/service/Train-to-Busan
+    container_name: train-to-busan
+    networks:
+      - train-to-busan
+    ports:
+      - 8767:5000
+    restart: always
+
+  cookie-monster:
+    build: challenges/web/cookie-monster/service/app
+    container_name: cookie-monster
+    networks:
+      - cookie-monster
+    ports:
+      - 8768:5000
+    restart: always
+
+  idoor:
+    build: challenges/web/iDoor/service
+    container_name: idoor
+    networks:
+      - idoor
+    ports:
+      - 8769:80
+    restart: always
+
+  magic-table:
+    build: challenges/web/Magic-Table/service/Magic-Table
+    container_name: magic-table
+    networks:
+      - magic-table
+    ports:
+      - 8770:80
+    restart: always
+
+  sqli:
+    build: challenges/web/SQLi/service
+    container_name: sqli
+    networks:
+      - sqli
+    ports:
+      - 8771:5000
+    restart: always
+
+  valuable-insights:
+    build: challenges/web/Valuable-Insights/service
+    container_name: valuable-insights
+    networks:
+      - valuable-insights
+    ports:
+      - 8772:80
+    restart: always
