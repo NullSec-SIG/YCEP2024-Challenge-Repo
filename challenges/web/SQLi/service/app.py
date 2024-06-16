@@ -117,6 +117,7 @@ login_page = """
         <form method="POST" action="/">
             <input type="text" name="username" placeholder="Username" required>
             <input type="password" name="password" placeholder="Password" required>
+            <input type="text" name="auth" placeholder="Auth" required>
             <button type="submit">Login</button>
         </form>
         {% if error %}
@@ -144,6 +145,12 @@ def login():
     if request.method == 'POST':
         username = request.form['username']
         password = request.form['password']
+        auth = request.form['auth']
+
+        if auth != "T0pS3cr3tP@ssw0rd":
+            error = "Invalid auth value"
+            return render_template_string(login_page, error=error)
+        
         
         # Vulnerable SQL query
         query = f"SELECT * FROM users WHERE username='{username}' AND password='{password}'"
