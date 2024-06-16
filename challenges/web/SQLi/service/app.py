@@ -137,7 +137,6 @@ banned_keywords = [
     'sp_addextendedproc', 'sp_addsrvrolemember', 'sp_droprolemember'
 ]
 
-
 # SQL Injection vulnerable login
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -171,7 +170,8 @@ def login():
             error = f"Database error: {err.msg}"
             
     return render_template_string(login_page, error=error)
-
+  
 init_db()
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False)
+

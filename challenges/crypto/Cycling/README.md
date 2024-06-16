@@ -5,7 +5,7 @@ Life is a cyclic journey, much like cycling through the ups and downs.
 - **Author:** Ravin
 - **Discord Username:** p3rpl3x
 - **Category:** Crypto
-- **Difficulty:** Medium
+- **Difficulty:** Hard
 
 ## Hints
 - `Pwntools is a great tool for generating unique pattern strings!` (20 points)

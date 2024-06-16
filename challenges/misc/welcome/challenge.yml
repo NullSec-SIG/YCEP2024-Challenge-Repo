@@ -1,0 +1,9 @@
+challenge:
+  author: "Kairos"
+  category: Misc
+  description: "Check our FAQs for the flag!"
+  difficulty: "easy"
+  discord: "kairostay"
+
+  flags:
+    - YCEP24{w31c0m3_2_yc3p_at_np!!}

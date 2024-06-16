@@ -1,0 +1,17 @@
+name: "Based Crypto"
+author: "Yong Shyan"
+category: Cryptography
+description: A repeater has messed up my flag and split it into 4 parts! Help me to decode them please! Encoded parts of the flag include LFBUKUBSGR5VI===, aElzX0lzTg==, E5KF6VRTKJ4Q====, X0JBNTNEfQ==
+difficulty: easy
+
+
+flags:
+    - YCEP24{ThIs_IsN'T_V3Ry_BA53D}
+
+topics:
+    - Base 32 & Base 64
+
+hints:
+    - cost: 10
+    description: "0101"
+    requirements: null
