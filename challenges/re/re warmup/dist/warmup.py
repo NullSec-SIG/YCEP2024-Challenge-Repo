@@ -1,4 +1,4 @@
-flag = r"YCEP24{w4rmup_15_ezpz}"
+flag = r"YCEP24{REDACTED}"
 
 encode = []
 
