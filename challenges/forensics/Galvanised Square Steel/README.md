@@ -12,7 +12,7 @@ Link: https://drive.google.com/file/d/1R22YZlHGIsmz1Zm1c8Yxnw2rPJvj48Uv/view?usp
 - **Author:** Kairos
 - **Discord Username:** kairostay 
 - **Category:** Forensics
-- **Difficulty:** Hard
+- **Difficulty:** Insane
 
 ## Hints
 - Little John is really TERRIBLE at hiding his tracks. It's not helping his case that he loves to use the command line. (50 points)
