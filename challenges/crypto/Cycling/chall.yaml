@@ -1,0 +1,14 @@
+challenge:
+  author: "Ravin"
+  category: Cryptography
+  description: "Life is a cyclic journey, much like cycling through the ups and downs."
+  difficulty: "Hard"
+  discord: "p3rpl3x"
+
+  flags:
+    - YCEP24{ImG01nGT0CyCl3ToUrHse}
+
+  hints:
+    - cost: 20
+      description: "Pwntools is a great tool for generating unique pattern strings!"
+      requirements: null

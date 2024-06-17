@@ -1,0 +1,42 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "esrever"
+author: "branzin"
+category: reverse
+difficulty: easy
+description: reverse engineer the string provided to get the flag!
+value: 100
+type: standard
+
+flags:
+ - YCEP24{r3v3rs3_3ng1n333r1ng_g3t_1t_h4h4h4h3h33h3h333}
+
+
+
+# Topics are used to help tell what techniques/information a challenge involves
+# They are generally only visible to admins
+# Accepts strings
+topics:
+    - python
+    - reverse
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+files:
+    - dist/challenge.py
+
+# Hints are used to give players a way to buy or have suggestions. They are not
+# required but can be nice.
+# Can be removed if unused
+# Accepts dictionaries or strings
+hints:
+    - {
+        content: "read the challenge name again",
+        cost: 10
+    }
+    - {
+        content: "REVERSE engineer the string!!!",
+        cost: 25
+    }

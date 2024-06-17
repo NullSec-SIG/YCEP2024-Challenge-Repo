@@ -1,0 +1,23 @@
+name: "Timeless Secrets"
+author: "Hazim"
+category: Cryptography
+description: You find yourself on an fearful journey deep into the heart of an ancient jungle, 
+and found a hidden cave entrance. Drawings on the wall telling stories of civilization long ago, 
+and, for some reason, the drawings consistently depicted scenes of being ABANDONED. There seems to be an additional piece of what seems to be a code too.
+'Y_srp}EnntrCaaee2is_sn_cslIteilPcds_{nshi4e_wt'
+
+difficulty: Medium
+
+flags:
+    -  YCEP24{In_ancient_sands_secrets_whisper_still}
+
+topics:
+    - Columnar Transposition
+
+hints:
+    - cost: 10
+    description: "There seems to be a riddle here, it says: 'Within my columns, secrets reside,
+                                                   Transpose with care, where answers hide.
+                                                   A cryptic dance, a puzzle to solve,
+                                                   With wit and patience, your skills evolve'"
+    requirements: null

@@ -1,0 +1,19 @@
+name: "Yumminess"
+author: "Daksh"
+discord: "dakshthapar"
+category: Cryptography
+description: Can you guess my favourite food and subject? Check the hints.txt file for free hints. UPPERCASE with underscores in between. Encapsulate the flag with YCEP24{}.
+difficulty: Medium
+value: 200
+type: standard
+
+flags:
+  - YCEP24{BACON_IS_CHEMISTRY_OF_YUMMINESS}
+
+files:
+  - dist/Yumminess.txt
+  - dist/hints.txt
+
+hints:
+  - { content: "I love hydrogen and carbon!", cost: 20 }
+  - { content: "Pigs are the best animals in the world!", cost: 20 }

@@ -1,0 +1,14 @@
+challenge:
+  author: "Galen"
+  category: osint
+  description: "As I made my routine monthly visit to the library in search of the latest issue of "Young Scientist," I couldn't help but notice a faint sound of weeping coming from the help desk. Curious, I approached and glimpsed Jeremy, who appeared to be tearfully staring at an Instagram account. My attention was immediately grabbed by a peculiar image of his face plastered on a skateboard, featured as a post. I recently heard my favourite librarian Jeremy Ong Wei Jun used to be an aspiring influencer, before leaving his dreams in the dust, to become a librarian. Could we find out his favourite book to cheer him up? 
+  difficulty: "hard"
+  discord: "galenious_"
+    
+flags:
+  - YCEP24{geronimo_stilton}
+
+hints:
+  - cost: 20
+    description: "With Jeremy's growing fanbase, Jeremy felt the need to differentiate himself as THE REAL deal from other potential impersonators who plan to use his power and influence for their malicious intents."
+    requirements: null

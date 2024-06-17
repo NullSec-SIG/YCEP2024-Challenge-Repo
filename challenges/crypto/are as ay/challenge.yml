@@ -1,0 +1,12 @@
+challenge:
+  author: "Kairos"
+  category: Cryptography
+  description: "I love coding in Python! What's a private and public key though? Whatever. Let me give you everything."
+  difficulty: "hard"
+  discord: "kairostay"
+
+  files:
+    - dist/are_as_ay.zip
+
+  flags:
+    - YCEP24{s0_tH15_1S_r5A!}
