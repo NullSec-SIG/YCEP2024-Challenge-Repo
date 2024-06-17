@@ -2,13 +2,7 @@ name: "SQLi"
 author: "dakshthapar"
 category: Web
 difficulty: Medium
-description: |
-  My Friend has created a website for his company.
-  He has asked me to test it for any vulnerabilities.
-  Can you help me out? I have a feeling that it is
-  vulnerable to SQL Injection.
-
-  http://challs.ycep24.nullsecsig.com:8771/
+description: My Friend has created a website for his company. He has asked me to test it for any vulnerabilities. Can you help me out? I have a feeling that it is vulnerable to SQL Injection.
 value: 300
 type: standard
 
@@ -20,6 +14,9 @@ type: standard
 #     initial: 500
 #     decay: 100
 #     minimum: 50
+
+files:
+    - dist/app.py
 
 # Optional settings
 

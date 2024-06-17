@@ -3,7 +3,10 @@
 name: "Valuable Insights"
 author: "Hazim"
 category: Web Exploit
-description: Feeling a hunger for uncovering hidden web secrets! Anyone up for sharing some juicy insights?
+description: |
+    Feeling a hunger for uncovering hidden web secrets! Anyone up for sharing some juicy insights?
+
+    http://challs.ycep24.nullsecsig.com:8772/
 difficulty: easy
 
 
