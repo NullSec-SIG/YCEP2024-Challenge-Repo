@@ -9,7 +9,8 @@ challenge:
     source code online. Find the vulnerability and cat
     the flag before the infection spreads?!
 
-    https://train-to-busan-ycep24.vercel.app/
+    [Instance 1] - https://train-to-busan-ycep24.vercel.app/
+    [Instance 2] - http://challs.ycep24.nullsecsig.com:8767/
   value: 250
   type: standard
 

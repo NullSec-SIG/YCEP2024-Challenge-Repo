@@ -1,7 +1,11 @@
 challenge:
   author: "Tevel"
   category: Web
-  description: "Cookie Monster wants all your cookiesssssssssss\nhttps://cookie-monster-ycep24.vercel.app/"
+  description: |
+    Cookie Monster wants all your cookiesssssssssss
+
+    [Instance 1] - https://cookie-monster-ycep24.vercel.app/
+    [Instance 2] - http://challs.ycep24.nullsecsig.com:8768/
   difficulty: "Medium"
   discord: "trevelling"
 
