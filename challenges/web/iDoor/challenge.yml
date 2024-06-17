@@ -5,7 +5,10 @@
 name: "Introducing iDoor"
 author: "dakshthapar"
 category: web
-description: "Introducing the next-gen project, the iDoor – a simple but unique door. Check it out." 
+description: |
+    Introducing the next-gen project, the iDoor – a simple but unique door. Check it out.
+
+    http://challs.ycep24.nullsecsig.com:8769/
 value: 300
 type: standard
 
