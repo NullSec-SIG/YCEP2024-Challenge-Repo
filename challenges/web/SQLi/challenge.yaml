@@ -1,0 +1,47 @@
+name: "SQLi"
+author: "dakshthapar"
+category: Web
+difficulty: Medium
+description: My Friend has created a website for his company. He has asked me to test it for any vulnerabilities. Can you help me out? I have a feeling that it is vulnerable to SQL Injection.
+value: 300
+type: standard
+
+# The extra field provides additional fields for data during the install/sync commands/
+# Fields in extra can be used to supply additional information for other challenge types
+# For example the follow extra field is for dynamic challenges. To use these following
+# extra fields, set the type to "dynamic" and uncomment the "extra" section below
+# extra:
+#     initial: 500
+#     decay: 100
+#     minimum: 50
+
+files:
+    - dist/app.py
+
+# Optional settings
+
+# Flags specify answers that your challenge use. You should generally provide at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries of CTFd API data
+flags:
+  # A static case sensitive flag
+  - YCEP24{SQL_1njec7i0n_15_fun}
+
+# Topics are used to help tell what techniques/information a challenge involves
+# They are generally only visible to admins
+# Accepts strings
+topics:
+  - SQL Injection
+
+# Provide paths to files from the same directory that this file is in
+# Accepts strings
+
+# Hints are used to give players a way to buy or have suggestions. They are not
+# required but can be nice.
+# Can be removed if unused
+# Accepts dictionaries or strings
+hints:
+  - {
+      content: "SELECT * FROM users WHERE username={USERNAME} AND password={PASSWORD}",
+      cost: 50,
+    }

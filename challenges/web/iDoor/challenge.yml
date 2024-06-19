@@ -1,0 +1,37 @@
+# This file represents the base specification of your challenge. It is used by
+# other tools to install and deploy your challenge.
+
+# Required sections
+name: "Introducing iDoor"
+author: "dakshthapar"
+category: web
+description: |
+    Introducing the next-gen project, the iDoor – a simple but unique door. Check it out.
+
+    http://challs.ycep24.nullsecsig.com:8769/
+value: 300
+type: standard
+
+
+  #extra:
+  #    initial: 500
+      #    decay: 100
+      #    minimum: 50
+
+# Optional settings
+
+# connection_info is used to provide a link, hostname, or instructions on how to connect to a challenge
+# connection_info: nc hostname 12345
+
+# Flags specify answers that your challenge use. You should generally provide at least one.
+# Can be removed if unused
+# Accepts strings or dictionaries of CTFd API data
+flags:
+    # A static case sensitive flag
+    - YCEP24{w04h_1n53cur3_d1r3ct_0bj3ct_R3f3r3nc3}
+
+# Topics are used to help tell what techniques/information a challenge involves
+# They are generally only visible to admins
+# Accepts strings
+topics:
+    - web

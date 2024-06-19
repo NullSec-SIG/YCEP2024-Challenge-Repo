@@ -1,0 +1,27 @@
+challenge:
+  author: "Tevel"
+  category: Web
+  description: |
+    Cookie Monster wants all your cookiesssssssssss
+
+    [Instance 1] - https://cookie-monster-ycep24.vercel.app/
+    [Instance 2] - http://challs.ycep24.nullsecsig.com:8768/
+  difficulty: "Medium"
+  discord: "trevelling"
+
+  flags:
+    - YCEP24{c00k13_m0n573r_7r345ur35}
+
+  hints:
+    - cost: 10
+      description: "I dont know what cookies are, but I do know I love eating them"
+      requirements: null
+    - cost: 50
+      description: "Some things are always in 'plain sight'!"
+      requirements: null
+
+services:
+  Cookie-Monster:
+    name: "Cookie-Monster"
+    path: service
+    port: '5000'

@@ -1,0 +1,22 @@
+
+
+name: "Valuable Insights"
+author: "Hazim"
+category: Web Exploit
+description: |
+    Feeling a hunger for uncovering hidden web secrets! Anyone up for sharing some juicy insights?
+
+    http://challs.ycep24.nullsecsig.com:8772/
+difficulty: easy
+
+
+flags:
+    - YCEP24{d0n1_pu1_sens1t1ve_1nf0_h3r3}
+
+topics:
+    - Inspector Elements
+
+hints:
+    - {
+       Something seems to be in the elements, I wonder what thats about. (10 points)
+    }

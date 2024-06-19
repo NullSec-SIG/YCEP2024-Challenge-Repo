@@ -1,0 +1,30 @@
+challenge:
+  name: "Train to Busan"
+  author: "bowen"
+  category: web
+  difficulty: hard
+  description: |
+    The booking website for the train to Busan has been
+    compromised. The attackers have leaked some of its
+    source code online. Find the vulnerability and cat
+    the flag before the infection spreads?!
+
+    [Instance 1] - https://train-to-busan-ycep24.vercel.app/
+    [Instance 2] - http://challs.ycep24.nullsecsig.com:8767/
+  value: 250
+  type: standard
+
+  flags:
+    - YCEP24{1_l0v3_1nj3c710n5}
+
+  topics:
+    - web exploitation
+
+  files:
+    - dist/app.py
+
+services:
+  Train-to-Busan:
+    name: "Train-to-Busan"
+    path: service
+    port: '5000'

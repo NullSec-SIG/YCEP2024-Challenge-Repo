@@ -14,4 +14,5 @@ Oh no! The chef accidentally scrambled the secret recipe for your favorite break
 - [algorithm.py](dist/algorithm.py)
 
 ## Flags
-- `YCEP2024{1_l0oo0ve_scr4mb13d_3gg5_n_m4gn0l14_mm1lk}` (static)
+- `YCEP24{1_l0oo0ve_scr4mb13d_3gg5_n_m4gn0l14_mm1lk}` (static)
+

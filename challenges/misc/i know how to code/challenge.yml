@@ -1,0 +1,12 @@
+challenge:
+  author: "Kairos"
+  category: Misc
+  description: "I wish i knew how to code!"
+  difficulty: "medium"
+  discord: "kairostay"
+
+   files:
+    - dist/code.txt
+
+  flags:
+    - YCEP24{pLZ_d0N7_r4nd0Mly_p45T3_C0d3_1n_c0NS01E}
