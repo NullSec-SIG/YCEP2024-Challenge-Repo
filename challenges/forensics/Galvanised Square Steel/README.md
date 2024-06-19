@@ -21,4 +21,4 @@ Link: [https://drive.google.com/file/d/1R22YZlHGIsmz1Zm1c8Yxnw2rPJvj48Uv/view?us
 
 
 ## Flags
-- `YCEP24{ec0_fr1end1y_abygurl69}` (static)
+- `YCEP24{ec0_fr1end1y_password123}` (static)
