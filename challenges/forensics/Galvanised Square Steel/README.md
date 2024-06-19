@@ -16,9 +16,9 @@ Link: [https://drive.google.com/file/d/1R22YZlHGIsmz1Zm1c8Yxnw2rPJvj48Uv/view?us
 
 ## Hints
 - Little John is really TERRIBLE at hiding his tracks. It's not helping his case that he loves to use the command line. (50 points)
-- Little John LOVES fragmented files. He also loves naming his files practically. (100 points)
-- Little John doesn't know how to encrypt passwords for his accounts! Pray he doesn't get his password cracked. (250 points)
+- Little John LOVES fragmented files. He also loves naming his files practically, something like... hmm... partone? parttwo? no? (100 points)
+- Little John doesn't know how to use secure passwords for his accounts! Pray he doesn't get his password cracked.  (200 points)
 
 
 ## Flags
-- `YCEP24{ec0_fr1end1y_password123}` (static)
+- `YCEP24{ec0_fr1end1y_abygurl69}` (static)
