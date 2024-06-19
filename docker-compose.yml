@@ -5,6 +5,7 @@ networks:
   magic-table:
   sqli:
   valuable-insights:
+  baby-pwn:
 
 services:
   train-to-busan:
@@ -59,4 +60,13 @@ services:
       - valuable-insights
     ports:
       - 8772:80
+    restart: always
+
+  baby-pwn:
+    build: "challenges/pwn/Baby Pwn/service"
+    container_name: baby-pwn
+    networks:
+      - baby-pwn
+    ports:
+      - 9112:1337
     restart: always

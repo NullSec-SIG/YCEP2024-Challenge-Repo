@@ -1,8 +1,20 @@
-FROM pwn.red/jail
-COPY --from=ubuntu:22.04 / /srv
+FROM ubuntu:22.04
 
-COPY flag /srv/app/flag
-COPY chall /srv/app/run
+RUN apt-get update && apt-get install -y \
+  xinetd \
+  && rm -rf /var/lib/apt/lists/*
 
-RUN chmod +x /srv/app/run
+RUN mkdir -p /challenge
+RUN useradd -M -d /challenge ctf
+WORKDIR /challenge
 
+COPY ctf.xinetd /etc/xinetd.d/ctf
+COPY . /challenge/
+
+RUN chown -R ctf:ctf /challenge && chmod -R 770 /challenge
+RUN chown -R root:ctf /challenge && \
+  chmod -R 750 /challenge
+
+CMD ["/usr/sbin/xinetd", "-dontfork"]
+
+EXPOSE 1337
