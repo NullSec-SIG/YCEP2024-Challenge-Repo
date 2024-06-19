@@ -10,6 +10,8 @@ COPY /shell.sh /shell.sh
 COPY flag /home/ycepuser/flag_in_here/.flag
 COPY README /home/ycepuser/flag_in_here/README
 
+RUN chmod +x /shell.sh
+
 USER ycepuser
 
 WORKDIR /home/ycepuser

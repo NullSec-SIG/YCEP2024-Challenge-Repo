@@ -6,6 +6,8 @@ networks:
   sqli:
   valuable-insights:
   baby-pwn:
+  cheese-shop:
+  cli:
 
 services:
   train-to-busan:
@@ -70,3 +72,22 @@ services:
     ports:
       - 9112:1337
     restart: always
+
+  cheese-shop:
+    build: "challenges/pwn/Cheese Shop/service"
+    container_name: cheese-shop
+    networks:
+      - cheese-shop
+    ports:
+      - 9113:1337
+    restart: always
+
+  cli:
+    build: "challenges/pwn/CLI/service"
+    container_name: cli
+    networks:
+      - cli
+    ports:
+      - 9114:13337
+    restart: always
+
