@@ -1,10 +1,20 @@
-FROM python:latest
+FROM ubuntu:22.04
 
-COPY flag.txt /flag.txt
-COPY fake.txt /fake.txt
-COPY main.py /main.py
+RUN apt-get update && apt-get install -y \
+  xinetd python3 \
+  && rm -rf /var/lib/apt/lists/*
 
-RUN chmod +x /main.py
-CMD ["python", "/main.py"]
+RUN mkdir -p /challenge
+RUN useradd -M -d /challenge ctf
+WORKDIR /challenge
 
-# testing locally: `docker build --tag "image_name" .` && `docker run -it "image_name"`
+COPY ctf.xinetd /etc/xinetd.d/ctf
+COPY . /challenge/
+
+RUN chown -R ctf:ctf /challenge && chmod -R 770 /challenge
+RUN chown -R root:ctf /challenge && \
+  chmod -R 750 /challenge
+
+CMD ["/usr/sbin/xinetd", "-dontfork"]
+
+EXPOSE 1337
