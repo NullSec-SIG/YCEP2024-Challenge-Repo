@@ -10,6 +10,7 @@ networks:
   cli:
   length-check:
   attention-check:
+  sigma-balls:
 
 services:
   train-to-busan:
@@ -109,4 +110,13 @@ services:
       - attention-check
     ports:
       - 9116:1337
+    restart: always
+
+  sigma-balls:
+    build: "challenges/pwn/Sigma Balls/service"
+    container_name: sigma-balls
+    networks:
+      - sigma-balls
+    ports:
+      - 9117:1337
     restart: always
