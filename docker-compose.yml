@@ -9,6 +9,7 @@ networks:
   cheese-shop:
   cli:
   length-check:
+  attention-check:
 
 services:
   train-to-busan:
@@ -99,4 +100,13 @@ services:
       - length-check
     ports:
       - 9115:1337
+    restart: always
+
+  attention-check:
+    build: "challenges/pwn/Attention Check/service"
+    container_name: attention-check
+    networks:
+      - attention-check
+    ports:
+      - 9116:1337
     restart: always

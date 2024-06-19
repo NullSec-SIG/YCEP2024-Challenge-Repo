@@ -1,0 +1,24 @@
+name: "Attention Check"
+author: "Bowen"
+category: Pwn
+difficulty: Hard
+description: |
+    Did you manage to understand the last part of the
+    pwn workshop?
+
+    nc challs.ycep24.nullsecsig.com 9116
+value: 500
+type: standard
+
+connection_info: nc challs.ycep24.nullsecsig.com 9116
+
+flags:
+    - YCEP24{r3t_2_w1n_g0_bRRr}
+
+topics:
+    - Buffer Overflow
+
+files:
+- dist/attention-check.c
+
+
