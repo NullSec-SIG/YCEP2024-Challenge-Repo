@@ -1,0 +1,24 @@
+name: "Length Check"
+author: "Bowen"
+category: Pwn
+difficulty: Medium
+description: |
+    I rushed a length check question right before the CTF started.
+    I hope my sloppy code isn't vulnerable...
+
+    nc challs.ycep24.nullsecsig.com 9115
+value: 500
+type: standard
+
+connection_info: nc challs.ycep24.nullsecsig.com 9115
+
+flags:
+    - YCEP24{l3ngth_n0t_l3ngth1ng}
+
+topics:
+    - Buffer Overflow
+
+files:
+- dist/length-check.c
+
+
