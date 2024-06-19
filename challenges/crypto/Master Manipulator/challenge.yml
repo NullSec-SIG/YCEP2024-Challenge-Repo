@@ -1,0 +1,13 @@
+name: "Master Manipulator"
+author: "Ravin"
+category: Crypto
+description: I intercepted this, but I do not understand it.... https://docs.google.com/spreadsheets/d/1JmmdBPO_h_IPd2XOi8wM7nxEhIylgsOxNDdPWlYlu7o/edit?usp=sharing
+difficulty: medium
+
+flags:
+    - YCEP24{G00GL3_M45T3R}
+
+hints:
+    - cost: null
+    description: null
+    requirements: null
