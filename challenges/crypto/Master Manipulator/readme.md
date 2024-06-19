@@ -5,7 +5,7 @@ I intercepted this, but I do not understand it.... https://docs.google.com/sprea
 - Author: Ravin
 - Discord Username: p3rpl3x
 - Category: Crypto
-- Difficulty: Hard
+- Difficulty: Medium
 
 ## Flag
 `YCEP24{G00GL3_M45T3R}`
