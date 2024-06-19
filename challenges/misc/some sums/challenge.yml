@@ -1,0 +1,21 @@
+name: "some sums"
+author: "Syn Kit"
+category: Misc
+difficulty: Medium
+description: "I made this for my baby cousin to help him improve his mental sums. He said 100 math problems were no problem, so I gave him 1000. How quick can you quick maths?"
+value: 100
+type: standard
+
+connection_info: nc hostname 12008
+
+flags:
+    - YCEP24{1_am_4_m47H_wh1ZZZzzZZZzzz1111}
+
+topics:
+    - Simple pwntools script
+
+  hints:
+    - cost: 20
+      description: "pwntools is a very useful python library"
+      requirements: null
+
