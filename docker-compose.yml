@@ -8,6 +8,7 @@ networks:
   baby-pwn:
   cheese-shop:
   cli:
+  length-check:
 
 services:
   train-to-busan:
@@ -91,3 +92,11 @@ services:
       - 9114:13337
     restart: always
 
+  length-check:
+    build: "challenges/pwn/Length Check/service"
+    container_name: length-check
+    networks:
+      - length-check
+    ports:
+      - 9115:1337
+    restart: always
