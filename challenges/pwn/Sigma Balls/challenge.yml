@@ -1,0 +1,25 @@
+name: "Sigma Balls"
+author: "Bowen"
+category: Pwn
+difficulty: Insane
+description: |
+    Uhm what the sigma? Skibidi rizz. Gyatt damn.
+    My friend has been infected by brainrot, please
+    help him 🙏
+
+    nc challs.ycep24.nullsecsig.com 9117
+value: 500
+type: standard
+
+connection_info: nc challs.ycep24.nullsecsig.com 9117
+
+flags:
+    - YCEP24{s1gma_0r1ent3d_pr0gr4mm1ng}
+
+topics:
+    - Sigreturn Oriented Programming
+
+files:
+- dist/sigma-balls
+
+
