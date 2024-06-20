@@ -9,7 +9,7 @@ app = Flask(__name__)
 db_config = {
     'user': 'root',
     'password': 'SuperSecretPassword123!@YCEP24',
-    'host': 'db',
+    'host': 'sqli-db',
     'database': 'mydatabase'
 }
 

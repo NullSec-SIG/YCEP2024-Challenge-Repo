@@ -69,6 +69,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: SuperSecretPassword123!@YCEP24
       MYSQL_DATABASE: mydatabase
+    ports:
+      - 3306:3306
 
   valuable-insights:
     build: challenges/web/Valuable-Insights/service
