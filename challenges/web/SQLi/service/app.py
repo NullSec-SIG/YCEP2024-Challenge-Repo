@@ -5,17 +5,9 @@ import time
 
 app = Flask(__name__)
 
-# Database configuration
-db_config = {
-    'user': 'root',
-    'password': 'SuperSecretPassword123!@YCEP24',
-    'host': 'sqli-db',
-    'database': 'mydatabase'
-}
-
 # Initialize the database connection
 def get_db_connection():
-    connection = mysql.connector.connect(**db_config)
+    connection = mysql.connector.connect(user="root", password="SuperSecretPassword123!@YCEP24", host="sqli-db", database="mydatabase")
     return connection
 
 # Create users table and insert a dummy user
