@@ -1,6 +1,6 @@
 from pwn import *
 
-s = remote('127.0.0.1', 1337)
+s = remote("challs.ycep24.nullsecsig.com", 9118)
 
 header = s.recvline()
 
