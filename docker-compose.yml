@@ -53,11 +53,22 @@ services:
   sqli:
     build: challenges/web/SQLi/service
     container_name: sqli
+    depends_on:
+      - sqli-db
     networks:
       - sqli
     ports:
       - 8771:5000
     restart: always
+
+  sqli-db:
+    image: mysql:5.7
+    restart: always
+    networks:
+      - sqli
+    environment:
+      MYSQL_ROOT_PASSWORD: SuperSecretPassword123!@YCEP24
+      MYSQL_DATABASE: mydatabase
 
   valuable-insights:
     build: challenges/web/Valuable-Insights/service
