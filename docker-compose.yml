@@ -11,6 +11,7 @@ networks:
   length-check:
   attention-check:
   sigma-balls:
+  some-sums:
 
 services:
   train-to-busan:
@@ -119,4 +120,13 @@ services:
       - sigma-balls
     ports:
       - 9117:1337
+    restart: always
+
+  some-sums:
+    build: "challenges/misc/some sums/service"
+    container_name: some-sums
+    networks:
+      - some-sums
+    ports:
+      - 9118:1337
     restart: always
