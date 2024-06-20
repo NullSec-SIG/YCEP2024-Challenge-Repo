@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 # Initialize the database connection
 def get_db_connection():
-    connection = mysql.connector.connect(user="root", password="SuperSecretPassword123!@YCEP24", host="sqli-db", database="mydatabase")
+    connection = mysql.connector.connect(user="root", password="SuperSecretPassword123!@YCEP24", host="sqli-db", port=3306, database="mydatabase")
     return connection
 
 # Create users table and insert a dummy user
